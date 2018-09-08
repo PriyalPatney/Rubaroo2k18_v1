@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rubaroo'18</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" href="css/main2.css">
+</head>
+<body>
+    <div class="overlay"></div>
+
+    <div class="nav-btn">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    
+    <div class="nav">
+        <div class="nav_content">
+            <div class="links">
+                <span class="link tile" redirect="index.html">Home</span>
+                <span class="link tile" redirect="events.html">Events</span>
+                <span class="link tile" redirect="about.html">About</span>
+                <span class="link tile" redirect="#">Register</span>
+                <span class="link tile" redirect="#">Rollback</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="nav-red"></div>
+    
+    
+    <main class="mainStage">
+        <div class="background__layers" id="scene">
+            <div class="background backgrond__layer__1" style="background-image: url('img/background_purple.png');"></div>
+            <div  class="background backgrond__layer__1" style="background-image: url('img/background_dark_purple.png');"></div>
+            <div data-depth=".1" class="background backgrond__layer__2" style="background-image: url('img/background_light_purple.png');"></div>
+            <div data-depth="0.3" class="background backgrond__layer__2" style="background-image: url('img/background_center_yellow.png');"></div>
+            <div data-depth="0.3" class="background backgrond__layer__2" style="background-image: url('img/background_light_yellow.png');"></div>
+            <!-- <div data-depth="0.3" class="background backgrond__layer__2 blend" style="background-image: url('img/background_stars.png');"></div> -->
+            <div id="particles-js" class="background"></div>
+            <div class="text__layer background">
+                <h1 class="main__title">RUBAROO</h1>
+                <div class="timer background">
+                    <span class="time days"></span>
+                    <span class="time hours"></span>
+                </div>
+                <div>
+                    <img style="position: absolute;
+	                            width: 8%;
+	                            top: 0;" 
+	                            src="images\Rubaroo.png">
+                </div>
+                <div>
+                    <img style="position: absolute;
+	                            width: 13%;
+	                            top: 0;
+	                            right: 0;" 
+	                            src="images\srm logo 1.png">
+                </div>
+                
+                <div class="social-icons">
+                    <a style="text-decoration: none"  target= "_black" href="https://www.facebook.com/srmrubaroo">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a style="text-decoration: none" target= "_black" href="https://www.instagram.com/rubaroo_srm">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a style="text-decoration: none" target= "_black"  href="https://www.youtube.com/channel/UCCnyIl8GsbuP2IYdl_S597Q">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+            <div data-depth="0.7" class="background backgrond__layer__1" style="background-image: url('img/shadow1.png');"></div>
+            <div data-depth="0.7" class="background backgrond__layer__1" style="background-image: url('img/shadow2.png');"></div>
+            <div data-depth="0.7" class="background backgrond__layer__1 dab" style="background-image: url('img/dab.png');"></div>
+        </div>
+    </main>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script src="js/anime.min.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/main2.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/home.js"></script>
+<script src="js/timer.js"></script>
+</html>

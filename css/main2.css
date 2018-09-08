@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,500,700");
+*, ::after, ::before {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  width: 100vw;
+  overflow: hidden; }
+
+.mainStage {
+  width: 100vw;
+  height: 100vh;
+  background: #999999; }
+
+.background__layers {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr; }
+
+.background {
+  grid-area: 1/1/2/2;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: norepeat;
+  pointer-events: none; }
+
+.dab {
+  margin-left: -10%; }
+
+.backgrond__layer__2 {
+  width: 100%;
+  height: 100%; }
+
+.main__title {
+  color: #fefefe;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  margin: 0;
+  font-family: "Raleway";
+  font-size: 10vw;
+  font-weight: bold; }
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 1000;
+  background: #111111;
+  top: 0;
+  left: -100%; }
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end; }
+
+.time {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  display: block;
+  color: #fefefe;
+  bottom: 40px;
+  right: 40px; }
+
+.social-icons {
+  position: absolute;
+  z-index: 10;
+  left: 40px;
+  font-size: 2vw;
+  bottom: 40px; }
+
+.fab {
+  cursor: pointer;
+  padding-left: 40px;
+  z-index: 100;
+  pointer-events: auto;
+  transition: color 0.4s;
+  color: #fefefe; }
+  .fab:hvoer {
+    color: #333333; }
+
+.days {
+  font-size: 2.5em; }
+  @media only screen and (max-width: 800px) {
+    .days {
+      font-size: 1.5em; } }
+      
+      @media only screen and (max-width: 800px) {
+          
+          .timer {
+            display:none;              
+                
+          }
+      }
+
+@media only screen and (max-width: 800px) {
+    
+    .social-icons
+ {
+     display:none;
+ }}
+/*# sourceMappingURL=main2.css.map */
